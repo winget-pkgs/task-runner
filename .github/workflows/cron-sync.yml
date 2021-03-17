@@ -2,7 +2,7 @@ name: Cron Sync
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "*/60 * * * *"
 
 jobs:
   sync-manifests:
